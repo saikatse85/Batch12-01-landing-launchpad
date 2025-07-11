@@ -1,5 +1,4 @@
 body{
-    background-color: #F5F8FF;
     margin: 0 auto;
 }
 /* shared Styles */
@@ -265,5 +264,35 @@ body{
     margin-top: 20px;
     border-radius: 5px;
 }
+/* end main part */
+
+/* start footer part */
+.footer_container{
+    margin: 0 auto;
+    display: block;
+    justify-items: center;
+    text-align: justify;
+    justify-content: center;
+    width: 460px;
+    padding: 20px;
+    background-color: none;
+}
+.footer_logo{
+    font-size: 100px;
+    font-weight: 900;
+}
+.footer_details{
+    margin: 0 auto;
+    color: #8987A1;
+}
+.footer_menu ul li{
+    display: inline;
+    padding: 10px;
+}
+.footer_menu ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
 
 
