@@ -1,6 +1,13 @@
-*body{
-    margin: 0 auto;
+
+/* shared Styles */
+.btn_color{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    font-family: Raleway;
 }
+
+/* star header section  */
 .header{
     background-image: url(../Images/Hero-bg.png);
     height: 700px;
@@ -62,9 +69,36 @@
     font-weight: bold;
     font-family: Raleway;
 }
-/* shared Styles */
-.btn_color{
-    background-color: #4E47FF;
-    border-radius: 5px;
-    border: none;
+/* end header tyles */
+
+.action_container{
+    height: auto;
+    width: 1340px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 100px;
 }
+.action_title{
+    width: 516px;
+}
+.action_head{
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 45px;
+    color: #252432;
+}
+.action_description{
+    font-size: 24px;
+    font-family: Raleway;
+    color: #252432;
+}
+.action_button{
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    color: white;
+    padding: 15px;
+}
+/* end action styles */
