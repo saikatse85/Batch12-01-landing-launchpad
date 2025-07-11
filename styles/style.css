@@ -8,6 +8,10 @@ body{
     border: none;
     font-family: Raleway;
 }
+.btn_color:hover{
+    background-color: tomato;
+    font-size: large;
+}
 .user_type{
     font-size: 80px;
     margin: 0 auto;
@@ -152,7 +156,7 @@ body{
 .action_button{
     font-size: 16px;
     font-weight: bold;
-    width: 200px;
+    width: 250px;
     color: white;
     padding: 15px;
 }
