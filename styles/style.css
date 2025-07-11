@@ -6,7 +6,18 @@
     border: none;
     font-family: Raleway;
 }
-
+.user_type{
+    font-size: 80px;
+    margin: 0 auto;
+    font-family: Inter;
+    color: #4E47FF;
+}
+.user_count{
+    color: #000000;
+    font-size: 20px;
+    opacity: 50%;
+    font-family: Inter;
+}
 /* star header section  */
 .header{
     background-image: url(../Images/Hero-bg.png);
@@ -102,3 +113,24 @@
     padding: 15px;
 }
 /* end action styles */
+.users_containetr{
+    height: auto;
+    width: 1340px;
+    margin: 0 auto;
+    justify-items: center;
+    margin-top: 100px;
+    background-color: #EBF1F6;
+    padding-top: 30px;
+    border-radius: 24px;
+}
+.user_title{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 40px;
+}
+.user-type_container{
+    display: flex;
+    margin: 0 auto;
+    gap: 200px;
+}
+
