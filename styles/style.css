@@ -1,4 +1,7 @@
-
+body{
+    background-color: #F5F8FF;
+    margin: 0 auto;
+}
 /* shared Styles */
 .btn_color{
     background-color: #4E47FF;
@@ -17,6 +20,32 @@
     font-size: 20px;
     opacity: 50%;
     font-family: Inter;
+}
+.user_id{
+    margin: 0 auto;
+    display: flex;
+    height: 40px;
+}
+.user_comment_container{
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    padding-top: 20px;
+}
+.user_comment_box{
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.user_name{
+    padding-left: 10px;
+}
+.name{
+    margin: 0 auto;
+    opacity: 70%;
+}
+.date{
+    margin: 0 auto;
+    opacity: 30%;
 }
 /* star header section  */
 .header{
@@ -133,4 +162,21 @@
     margin: 0 auto;
     gap: 200px;
 }
+.users_head_title h1{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Raleway;
+}
+.user_comment_container{
+    height: auto;
+    width: 1340px;
+    margin: 0 auto;
+    justify-items: center;
+    padding-top: 50px;
+}
+
 
