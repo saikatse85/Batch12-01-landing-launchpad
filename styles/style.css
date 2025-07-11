@@ -13,6 +13,7 @@ body{
 .btn_color:hover{
     font-size: large;
     box-shadow: inset 525px 0 0 0 tomato;
+    cursor: pointer;
 }
 .user_type{
     font-size: 80px;
