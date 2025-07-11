@@ -26,6 +26,21 @@ body{
     display: flex;
     height: 40px;
 }
+.input_style{
+    height: 40px; 
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgba(142, 142, 142, 0.203);
+    background-color: white;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.message_label{
+    font-family: Inter;
+}
+
+/* end shared styles */
 .user_comment_container{
     display: flex;
     margin: 0 auto;
@@ -212,6 +227,43 @@ body{
 }
 .focus_description{
     opacity: 50%;
+}
+.message_container{
+    margin: 0 auto;
+    height: auto;
+    width: 1340px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.messege_title{
+    width: 600px;
+}
+.messege_title_head{
+    font-size: 90px;
+    font-family: Raleway;
+}
+.form_container{
+    display: block;
+    width: 500px;
+}
+.btn_msg{
+    width: 525px;
+    padding:20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.msg_text{
+    font-family: Raleway;
+    border: 1px solid rgba(142, 142, 142, 0.203);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 
